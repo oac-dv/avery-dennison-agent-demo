@@ -1370,10 +1370,10 @@
     <form class="agent-dataset" id="datasetControls" hidden>
       <label for="datasetInput">Dataset expression</label>
       <div class="agent-dataset__row">
-        <input id="datasetInput" type="text" spellcheck="false" value="XSA('ravi.bhuma@oracle.com'.'avery_dataset')" aria-describedby="datasetHint">
+        <input id="datasetInput" type="text" spellcheck="false" value="XSA('a93c8f11-2293-4bb4-bc3d-5677bb6d4d70'.'avery_dataset')" aria-describedby="datasetHint">
         <button type="submit">Apply</button>
       </div>
-      <p id="datasetHint">Current: <code id="currentDataset">XSA('ravi.bhuma@oracle.com'.'avery_dataset')</code></p>
+      <p id="datasetHint">Current: <code id="currentDataset">XSA('a93c8f11-2293-4bb4-bc3d-5677bb6d4d70'.'avery_dataset')</code></p>
     </form>
     <div class="agent-panel__body">
       <div class="agent-state" id="agentLoading">
@@ -1416,9 +1416,9 @@
     })();
 
     (function () {
-      var OAC_HOST = "https://oacp-idseylbmv0mm-ia.analytics.ocp.oraclecloud.com";
+      var OAC_HOST = "https://oacai.cealinfra.com";
       var EMBED_SCRIPT = OAC_HOST + "/public/dv/v2/embedding/auto/embedding.js";
-      var DEFAULT_DATASET = "XSA('ravi.bhuma@oracle.com'.'avery_dataset')";
+      var DEFAULT_DATASET = "XSA('a93c8f11-2293-4bb4-bc3d-5677bb6d4d70'.'avery_dataset')";
       var launcher = document.getElementById("agentLauncher");
       var panel = document.getElementById("agentPanel");
       var closeButton = document.getElementById("agentClose");
